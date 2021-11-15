@@ -1,0 +1,72 @@
+body{
+    background-color: palegreen;
+    margin:0%;
+}
+.welcome{
+    font-family: 'Praise', cursive;
+    font-size: 25px;
+    text-align: center;
+    border-width: 50%;
+    border-style: groove;
+    border: 2px lawngreen;
+    box-shadow: 1px 2px 1px 2px rgb(186, 248, 186);
+    border-radius: 5px;
+    transition-property: background-color;
+    transition-duration: 3s;
+    transition-delay: 1s;
+}
+.welcome:hover{
+    background-color: teal;
+}
+span{
+    color: darkorange;
+}
+.demo{
+    width: 300px;
+    height: 100px;
+    font-family: 'Oswald', sans-serif;
+    padding: 1%;
+    border-width: 2px;
+    border-style: ridge;
+    border-color: hotpink;
+    border-radius: 5px;
+    float: left;
+    margin-left: 2%;
+    transition-property:background-color;
+    transition-duration: 4s;
+    transition-delay: 1s;
+}
+.demo:hover{
+    background-color: lightblue;
+}
+.demoinfo{
+    width: 450px;
+    height: 200px;
+    border-color:lightseagreen;
+    border-style: dotted;
+    border-radius: 2px;
+    float: left;
+    margin-left: 15%;
+    padding: 1%;
+    transition: background-color 4s ease 1s;
+}
+.demoinfo:hover{
+    background-color: lightskyblue;
+}
+.islam{
+    font-family: 'Yuji Syuku', serif;
+    box-shadow:2px 2px 2px 2px mediumaquamarine;
+    border: 2px solid darkolivegreen;
+    border-radius: 5px;
+    background-image: url(islam.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 3%;
+    transition-property: background-color;
+    transition-duration: 4s;
+    transition-delay: 1s;
+    float: inline-start;
+}
+.islam:hover{
+    background-color: rgb(210, 215, 230);
+}
